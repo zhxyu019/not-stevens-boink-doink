@@ -25,12 +25,12 @@ struct ContentView: View {
                         .font(.headline)
                     Text(emojiSet.emojis.joined())
                 }
+                .navigationTitle("Emojis")
             }
               
             .navigationTitle("Emojis")
             
         }
-    }
 }
 
 struct ContentView_Previews: PreviewProvider {
