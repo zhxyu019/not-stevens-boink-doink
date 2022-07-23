@@ -9,18 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     
-    var emojis = [""]
-    
-    var body: some View {
-        NavigationView {
-            List(emojis, id: \.self) { emoji in
-                Text(emoji)
-                
+        var emojis = ["🥵", "🦊", "👉👈", "🫦"]
+        
+        var body: some View {
+            NavigationView {
+                List(emojis, id: \.self) { emoji in
+                    Text(emoji)
+                }
+                .navigationTitle("Emojis")
             }
-            .navigationTitle("Emojis")
-            .navigation
+            .navigationViewStyle(.stack)
         }
-    }
 }
 
 struct ContentView_Previews: PreviewProvider {
