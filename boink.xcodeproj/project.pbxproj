@@ -11,6 +11,7 @@
 		51AFABCE288B83DF007E011A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AFABCD288B83DF007E011A /* ContentView.swift */; };
 		51AFABD0288B83E4007E011A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51AFABCF288B83E4007E011A /* Assets.xcassets */; };
 		51AFABD3288B83E4007E011A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51AFABD2288B83E4007E011A /* Preview Assets.xcassets */; };
+		87AEFFFF288B929F0027A242 /* emojiStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AEFFFE288B929F0027A242 /* emojiStruct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		51AFABCD288B83DF007E011A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		51AFABCF288B83E4007E011A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51AFABD2288B83E4007E011A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		87AEFFFE288B929F0027A242 /* emojiStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emojiStruct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				51AFABCB288B83DF007E011A /* boinkApp.swift */,
 				51AFABCD288B83DF007E011A /* ContentView.swift */,
+				87AEFFFE288B929F0027A242 /* emojiStruct.swift */,
 				51AFABCF288B83E4007E011A /* Assets.xcassets */,
 				51AFABD1288B83E4007E011A /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87AEFFFF288B929F0027A242 /* emojiStruct.swift in Sources */,
 				51AFABCE288B83DF007E011A /* ContentView.swift in Sources */,
 				51AFABCC288B83DF007E011A /* boinkApp.swift in Sources */,
 			);

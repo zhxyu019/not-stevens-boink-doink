@@ -9,16 +9,26 @@ import SwiftUI
 
 struct ContentView: View {
     
-    var emojis = [""]
+    
+    
+    var emojiSets = [
+    EmojiSet(name: "big red chicken",
+             emojis: ["🐔", "🐔", "🐔", "🐔"]),
+    EmojiSet(name: "food", emojis: ["🍦", "🥞", "🍣"])
+    
+    ]
     
     var body: some View {
         NavigationView {
-            List(emojis, id: \.self) { emoji in
-                Text(emoji)
-                
+            List(emojiSets) { emojiSet in VStack(alignment: .leading) {
+                    Text(emojiSet.name)
+                        .font(.headline)
+                    Text(emojiSet.emojis.joined())
+                }
             }
+              
             .navigationTitle("Emojis")
-            .navigation
+            
         }
     }
 }
